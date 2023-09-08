@@ -218,3 +218,41 @@ header {
     height: 100%;
     border-radius: 20px;
 }
+
+/* SLIDER *************************************************/
+
+.section-slider {
+    margin-top: 80px;
+}
+
+.section-slider p {
+    margin-bottom: 30px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.card-body {
+    min-height: 250px;
+    max-height: 250px;
+    overflow-y: auto;
+    background-color: #F8F8F8;
+}
+
+.card-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* arrows slider hidden */
+.owl-theme .owl-nav {
+    display: none;
+}
