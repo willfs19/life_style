@@ -27,12 +27,139 @@
 <body>
     <header>
       <div class="container-fluid-mod">
-      
+        
+        <!-- Navbar One -->
+        <nav class="navbar navbar-expand-lg nav">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="logo-img" src="images/logo.png" alt="Logo life">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="bi bi-list"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Life Style</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trips</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Places</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <label for="search">
+                  <i class="bi bi-search"></i>
+                </label>
+                <input id="search" class="form-control me-2 search_b" type="search" placeholder="Search" aria-label="Search">
+                <a href="" class="login">
+                  <i class="bi bi-person-circle"></i>
+                  Log in
+                </a>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Navbar Banner -->
+        <nav class="navbar navbar-expand-lg nav-banner">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              ADVENTURES
+            </a>
+            <button class="navbar-toggler navsub" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-banner" aria-controls="navbarSupportedContent-banner" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="bi bi-caret-down"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-banner">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#project">The Trip</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#episodes">MORE TRIPS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#impact">DIFERENCE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#newsroom">NEW TRIPS</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+
+      <div class="text-banner">
+        <div>
+          <h3>
+            <img class="logo-img-banner" src="images/logo-center.png" alt="Logo life">
+
+              <span class="txt-logo">presents</span>
+          </h3>
           <h1>My Life Style</h1>
-          
+          <div class="text-banner-a">
+            <a href="#watch-video">Watch the Trip</a>
+          </div>
         </div>
       </div>
     </header>
+
+    <!-- SECTION 1 Info-->
+    <section id="project" class="container section-info section-sm">
+      <div class="row section-info-txt-g">
+        <div class="col-md-4 col-sm-12">
+          <p>
+            Maecenas consectetur quam non enim laoreet suscipit. Suspendisse a risus dui. Ut dictum risus risus, gravida consectetur purus porta eu. Integer enim sem, tristique quis nisi tempor, condimentum semper mi.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <p>
+            Cras sed est in ipsum ultrices tristique vitae et massa. Donec porta tortor neque, sit amet mattis nunc facilisis nec. Duis ac aliquet turpis. Pellentesque euismod sem sed diam porttitor pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis lacinia ante sed nunc pretium consequat eu et nibh. 
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <p>
+            Nam imperdiet orci sit amet ornare malesuada. Fusce diam urna, maximus non accumsan et, lobortis ut quam. Proin purus dolor, interdum eget orci sit amet, lobortis blandit urna. Suspendisse quis ultricies erat, aliquam dignissim enim.
+          </p>
+        </div>
+        
+      </div>
+
+      <div class="row section1-title">
+        <div class="col-md-12">
+          <h3>
+            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Fusce diam urna, maximus non accumsan et, lobortis ut quam."
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2 Video-->
+    <section class="container section-video section-sm">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Duis hendrerit dolor at vehicula</h2>
+          <p>Quisque eget tempor libero, ac auctor lacus. Maecenas elementum nunc sit amet libero finibus, id scelerisque ipsum fringilla. Curabitur nec sodales felis. In cursus varius mauris ac facilisis. Vivamus volutpat arcu id rhoncus vulputate.</p>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+      <div id="watch-video" class="row">
+        <div class="col-md-12">
+          <div class="video-resp">
+            <iframe id="iframeVideo" class="responsive-iframe" src="https://www.youtube.com/embed/gCRNEJxDJKM?si=YZLtJ0H9F_b56tay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- JS Bootstrap 5.3 -->
