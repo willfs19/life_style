@@ -443,3 +443,157 @@ input:focus::placeholder {
 }
 
 /* ************************ */
+
+/********************************** MEDIA QUERIE ****************************************/
+
+/* Media LG *************************************************/
+@media (max-width: 991.98px) { 
+    /* Navbar */
+    .nav-item {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .d-flex {
+        justify-content: center;
+    }
+}
+
+/* Media MD *************************************************/ 
+@media (max-width: 767.98px) {
+
+    /* section 5 topics */
+    .img-resp {
+        margin-bottom: 30px;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    /* section 6 find *************************************************/
+    .show-filter {
+        margin-bottom: 10px;
+    }
+
+    .find-bt {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-find {
+        width: 50%;
+    }
+
+    /* Footer *************************************************/
+    .social-group {
+        display: flex;
+    }
+    
+    .social-group a {
+        margin: auto;
+    }
+
+    .social-icon {
+        width: 50px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .btn-file {
+        width: 70%;
+        margin-bottom: 25px;
+    }
+
+    .links-group {
+        margin-bottom: 25px;
+    }
+}
+
+/* Media SM *************************************************/
+@media (max-width: 575.98px) {
+    .text-banner h1 {
+        font-size: 3.5rem;
+    }
+
+    .nav-banner {
+        padding: 10px 20px
+    }
+
+    .section-sm {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 30px;
+    }
+
+    /* section info 2 *************************************************/
+    .section-info-sec {
+        background-position: top left;
+    }
+
+    .section-info-txt p {
+        font-size: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* SLIDER CARD *************************************************/
+    .card-title {
+        font-size: 1.7rem;
+    }
+
+    /* section 5 topics *************************************************/
+    .img-resp {
+        margin-bottom: 20px;
+    }
+
+    /* section 6 find *************************************************/
+    .section-find div h3 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .section-find-input {
+        margin-bottom: 20px;
+    }
+
+    .show-filter {
+        margin-bottom: 30px;
+    }
+
+    .find-bt a {
+        width: 350px;
+        text-align: center;
+    }
+
+    /* Footer *************************************************/
+
+    .social-group {
+        margin-bottom: 30px;
+    }
+
+    .btn-find {
+        width: 70%;
+    }
+
+    .links-title {
+        font-size: 1.5rem;
+    }
+    
+    .links-footer-list a, .terms-footer a {
+        font-size: 1.3rem;
+    }
+
+    .terms-footer div:nth-child(1) div:nth-child(1),
+    .terms-footer div:nth-child(1) div:nth-child(2),
+    .terms-footer div:nth-child(1) div:nth-child(3) {
+        text-align: center;
+        font-size: 1.3rem;
+        margin-bottom: 5px;
+    }
+
+    .cr-footer {
+        text-align: center;
+    }
+
+}

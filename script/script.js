@@ -1,5 +1,14 @@
 $(document).ready(function () {
 
+    // AOS scroll animate init JS
+    AOS.init({
+    
+    duration: 900, // values from 0 to 3000, with step 50ms
+
+});
+
+    AOS.init();
+
     // Carrossel EPISODES
     $('#myCarousel').owlCarousel({
     items: 3, // Number of cards shown in each slide

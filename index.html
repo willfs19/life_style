@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +17,10 @@
 
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/e55e47ee15.js" crossorigin="anonymous"></script>
+
+    <!-- AOS Animate scroll CSS/JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Principal css -->
     <link rel="stylesheet" href="css/index.css">
@@ -102,7 +106,7 @@
         </nav>
       </div>
 
-      <div class="text-banner">
+      <div class="text-banner" data-aos="fade-up">
         <div>
           <h3>
             <img class="logo-img-banner" src="images/logo-center.png" alt="Logo life">
@@ -120,17 +124,17 @@
     <!-- SECTION 1 Info-->
     <section id="project" class="container section-info section-sm">
       <div class="row section-info-txt-g">
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-right">
           <p>
             Maecenas consectetur quam non enim laoreet suscipit. Suspendisse a risus dui. Ut dictum risus risus, gravida consectetur purus porta eu. Integer enim sem, tristique quis nisi tempor, condimentum semper mi.
           </p>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up">
           <p>
             Cras sed est in ipsum ultrices tristique vitae et massa. Donec porta tortor neque, sit amet mattis nunc facilisis nec. Duis ac aliquet turpis. Pellentesque euismod sem sed diam porttitor pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis lacinia ante sed nunc pretium consequat eu et nibh. 
           </p>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-left">
           <p>
             Nam imperdiet orci sit amet ornare malesuada. Fusce diam urna, maximus non accumsan et, lobortis ut quam. Proin purus dolor, interdum eget orci sit amet, lobortis blandit urna. Suspendisse quis ultricies erat, aliquam dignissim enim.
           </p>
@@ -139,7 +143,7 @@
       </div>
 
       <div class="row section1-title">
-        <div class="col-md-12">
+        <div class="col-md-12" data-aos="zoom-in">
           <h3>
             "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Fusce diam urna, maximus non accumsan et, lobortis ut quam."
           </h3>
@@ -150,14 +154,14 @@
     <!-- SECTION 2 Video-->
     <section class="container section-video section-sm">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8" data-aos="fade-right">
           <h2>Duis hendrerit dolor at vehicula</h2>
           <p>Quisque eget tempor libero, ac auctor lacus. Maecenas elementum nunc sit amet libero finibus, id scelerisque ipsum fringilla. Curabitur nec sodales felis. In cursus varius mauris ac facilisis. Vivamus volutpat arcu id rhoncus vulputate.</p>
         </div>
         <div class="col-md-4"></div>
       </div>
       <div id="watch-video" class="row">
-        <div class="col-md-12">
+        <div class="col-md-12" data-aos="zoom-in">
           <div class="video-resp">
             <iframe id="iframeVideo" class="responsive-iframe" src="https://www.youtube.com/embed/gCRNEJxDJKM?si=YZLtJ0H9F_b56tay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
@@ -168,7 +172,7 @@
     <!-- SECTION 3 Slider-->
     <section id="episodes" class="container section-slider">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8" data-aos="fade-right">
           <h2>More Trips</h2>
           <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam iaculis viverra neque id viverra. In euismod imperdiet posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse consectetur orci neque, sed vestibulum nunc tristique ac.</p>
         </div>
@@ -178,7 +182,7 @@
       <div class="row">
         <div class="col-md-12">
 
-          <div class="container-fluid">
+          <div class="container-fluid" data-aos="zoom-in-up">
             <div id="myCarousel" class="owl-carousel owl-theme my-3">
 
               <!-- EPISODE 1 -->
@@ -294,7 +298,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-5"></div>
-              <div class="col-md-6 section-info-txt">
+              <div class="col-md-6 section-info-txt" data-aos="fade-right">
                 <p>
                   - Duis ut enim quis mi iaculis sodales. Duis hendrerit dolor at vehicula porta. Quisque eget tempor libero, ac auctor lacus. Maecenas elementum nunc sit amet libero finibus, id scelerisque ipsum fringilla. Curabitur nec sodales felis.
                 </p>
@@ -310,10 +314,10 @@
     <!-- SECTION 5 TOPICS -->
     <section id="newsroom" class="container section-topics">
       <aside class="row row-topics">
-        <div class="col-md-5 col-sm-12">
+        <div class="col-md-5 col-sm-12" data-aos="fade-right">
           <img src="./images/image_topic01.jpg" class="img-fluid img-resp" alt="Forest">
         </div>
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-7 col-sm-12" data-aos="fade-left">
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>
             Consectetur adipiscing elit. Nam ac pellentesque felis, id consequat neque. Phasellus dapibus, arcu at condimentum lacinia, eros nisl ultricies magna, consectetur facilisis quam augue sit amet lacus. Suspendisse tempor consequat suscipit. Vestibulum non lacus quis sapien placerat sagittis facilisis sed erat.
@@ -322,10 +326,10 @@
       </aside>
 
       <aside class="row row-topics">
-        <div class="col-md-5 col-sm-12">
+        <div class="col-md-5 col-sm-12" data-aos="fade-right">
           <img src="./images/image_topic02.jpg" class="img-fluid img-resp" alt="Beach">
         </div>
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-7 col-sm-12" data-aos="fade-left">
           <h3>Maecenas consectetur quam</h3>
           <p>
             Non enim laoreet suscipit. Suspendisse a risus dui. Ut dictum risus risus, gravida consectetur purus porta eu. Integer enim sem, tristique quis nisi tempor, condimentum semper mi. Etiam bibendum sapien non risus tristique condimentum. Suspendisse varius, arcu a placerat mollis, ante massa porttitor lectus, eu interdum ex orci non nibh.
@@ -334,10 +338,10 @@
       </aside>
 
       <aside class="row row-topics">
-        <div class="col-md-5 col-sm-12">
+        <div class="col-md-5 col-sm-12" data-aos="fade-right">
           <img src="./images/image_topic03.jpg" class="img-fluid img-resp" alt="Mountain">
         </div>
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-7 col-sm-12" data-aos="fade-left">
           <h3>Cras sed est in ipsum</h3>
           <p>
             Ultrices tristique vitae et massa. Donec porta tortor neque, sit amet mattis nunc facilisis nec. Duis ac aliquet turpis. Pellentesque euismod sem sed diam porttitor pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis lacinia ante sed nunc pretium consequat eu et nibh.
@@ -347,7 +351,7 @@
     </section>
 
     <!-- SECTION 6 FIND -->
-    <section class="container-fluid section-find">
+    <section class="container-fluid section-find" data-aos="zoom-in">
 
       <div class="container">
         <div class="row">
@@ -499,6 +503,8 @@
 
     <!-- Script da página -->
     <script src="script/script.js"></script>
+
+      
 
 </body>
 </html>
